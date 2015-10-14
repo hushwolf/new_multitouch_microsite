@@ -157,7 +157,7 @@ $(document).ready(function($) {
       $('#down_arrow').removeClass('goto1a');
       $('#down_arrow').removeClass('goto1b');
 
-      $('#dig_deeper').addClass('on');
+      $('#dig_deeper').removeClass('on');
 
       $('#section1navitem2').removeClass('on');
       $('#section1navitem3').addClass('on');
