@@ -10,13 +10,13 @@
 	
 	<link rel="stylesheet" type="text/css" href="css/kube.min.css" />
 	<link href='http://fonts.googleapis.com/css?family=Roboto:900,700,400,300' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" type="text/css" href="style.css"/>
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
 
 	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.js"></script>	
  	<script src="js/kube.min.js"></script>
 	<script src="snap.svg.js"></script>
 	<script src="js/svg-n-movie.js"></script>
-	<script src="main.js"></script>
+	<script src="js/main.js"></script>
 
 </head>
 
@@ -43,12 +43,10 @@
 </nav>
  -->
  
-
 <div class="svg_animation">
 	<svg id="svg"></svg>
 	<svg id="svg2"></svg>
 </div>
-
 
 <div class="units-row units-split" id="starting_links">
 
@@ -125,7 +123,7 @@
 	</section>
 
 	<a class="anchorlink" name="section2"></a>
-	<section id="section2">
+	<section id="section2" class="gallery">
 
 		<div id="content-display-2" class="text-display unit-push-40 unit-25">
 			This section 2 content is hidden from the user but is useful for SEO purposes. It is the counterpart of the text found in the javascript below.
