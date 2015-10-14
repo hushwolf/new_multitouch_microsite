@@ -10,8 +10,8 @@ window.onload = function () {
         setTimeout(function(){g.animate({opacity:"0"}, 1000)}, 2000);
     });
 
-    s.attr({viewBox: "0 0 1000 1000"});
-    s.attr("preserveAspectRatio", "xMinYMin meet");
+    //s.attr({viewBox: "0 0 1000 1000"});
+    //s.attr("preserveAspectRatio", "xMinYMin meet");
     var c1 = s.circle(500, 250, 8).attr({
         fill: 'none',
         stroke: 'white',
