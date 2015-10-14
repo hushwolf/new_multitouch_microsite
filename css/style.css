@@ -1,8 +1,10 @@
 /* ### New Multitouch Microsite ### */
 html, body {
+	background-color: #F3857E;
+	color:#fff;
 	margin:0; 
 	padding:0; 
-	color:#fff;
+	position:relative;
 }
 
 #downloadicon, #ideumicon, #socialicon, #tableicon {
@@ -30,6 +32,10 @@ html, body {
 #up_arrow:hover, #down_arrow:hover {
 	cursor:pointer;
 	opacity:0.5;
+}
+#dig_deeper p {
+	position: relative;
+  right: -1em;
 }
 
 #svg {
@@ -76,13 +82,11 @@ video {
 #content-information {
 	border-bottom-color:white;
 	border-bottom-width:2px; 
-	padding:.5em 0 10px;
+	padding:0 0 10px 0;
 }
 
-body {
-	background-color: #F3857E;
-	padding-top:1px;
-	position:relative;
+#utility {
+	text-align: right;
 }
 
 /* ### begin clearfix helper class ### */
@@ -110,19 +114,18 @@ body {
 #scrollnav {
 	height:183px;
 	margin:auto;
-	position:fixed;
 		top: 0; right: 0; bottom: 0; /* do not set left value */
+	text-align: right;
 }
 
 /* begin settup of fixed sections vertical offsets */
-#text {
-	position:fixed;
-		top:30%;
+#content-display {
+  height: 100%;
+  position: fixed;
+  	top: 30%;
+  width: 100%;
 }
-#menu {
-	position:fixed;
-		top:30%;
-}
+
 #starting_links {
 	position:fixed;
 	width:100%;
@@ -134,11 +137,7 @@ body {
 }
 /* end settup of fixed sections vertical offsets */
 
-/* ### begin menu styles ### */
-#menu {
-	position:fixed;
-		top:30%;
-}
+/* ### begin #tablemenu styles ### */
 .nav { /* aka tablemenu */
 	background-color:transparent;
 	color:#fff;
@@ -216,7 +215,7 @@ body {
 	position:inherit;
 }
 #section2 {
-	background-image:url(/images/touch.jpg);
+	background-image:url(/images/background.png);
 	position:inherit;
 }
 #section3 {
