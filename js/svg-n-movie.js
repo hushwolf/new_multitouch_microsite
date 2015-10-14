@@ -2,17 +2,17 @@
 // ==========================================================================
 
 window.onload = function () {
+    var window_width = window.innerWidth;
+    var window_height = window.innerHeight;
+
 	var s = Snap("svg");
     var g = s.group();
-    var hand = Snap.load("hand icon.svg", function (loadedFragment) {
+    var hand = Snap.load("/images/hand icon_centered.svg", function (loadedFragment) {
         g.append( loadedFragment);
-        g.transform("t6, -201");
         setTimeout(function(){g.animate({opacity:"0"}, 1000)}, 2000);
     });
 
-    s.attr({viewBox: "0 0 1000 1000"});
-    s.attr("preserveAspectRatio", "xMinYMin meet");
-    var c1 = s.circle(500, 250, 8).attr({
+    var c1 = s.circle((window_width/2), (window_height/2), 8).attr({
         fill: 'none',
         stroke: 'white',
         strokeWidth: 4
@@ -120,21 +120,21 @@ window.onload = function () {
     var text3 = 'PLATFORM 55 4K P-CAP MULTITOUCH TABLE' 
 
     var text_animate1 = function () {  
-        var svgTextElement = s.text(500, 250, text1).attr({ fill: 'white', fontSize: '35px', opacity: "0", "text-anchor": "middle"});
+        var svgTextElement = s.text((window_width/2), (window_height/2)-50, text1).attr({ fill: 'white', fontSize: '35px', opacity: "0", "text-anchor": "middle"});
         setTimeout( function() {svgTextElement.animate({opacity: "1"}, 500)}, 1500);
         setTimeout(function(){svgTextElement.animate({opacity:"0"}, 500)}, 2500);
     }
     setTimeout(text_animate1, 1900);
 
     var text_animate2 = function () {
-        var svgTextElement2 = s.text(500, 250, text2).attr({ fill: 'white', fontSize: '35px', opacity: "0", "text-anchor": "middle"});
+        var svgTextElement2 = s.text((window_width/2), (window_height/2)-50, text2).attr({ fill: 'white', fontSize: '35px', opacity: "0", "text-anchor": "middle"});
         setTimeout( function() {svgTextElement2.animate({opacity: "1"}, 500)}, 2500);
         setTimeout(function(){svgTextElement2.animate({opacity:"0"}, 1000)}, 3500);
     }
     setTimeout(text_animate2, 2900);
 
     var text_animate3 = function () {
-        var svgTextElement3 = s.text(500, 300, text3).attr({ fill: 'white', fontSize: '35px', opacity: "0", "text-anchor": "middle"});
+        var svgTextElement3 = s.text((window_width/2), (window_height/2)+50, text3).attr({ fill: 'white', fontSize: '35px', opacity: "0", "text-anchor": "middle"});
         setTimeout( function() {svgTextElement3.animate({opacity: "1"}, 500)}, 2500);
         setTimeout(function(){svgTextElement3.animate({opacity:"0"}, 2000)}, 3000);
     }
@@ -162,5 +162,6 @@ window.onload = function () {
 
     setTimeout(function(){
         $('video').remove();}, 14000);
-				
+    setTimeout(function(){
+        $('html', 'body').css('overflow','visible');}, 7200);
 }
