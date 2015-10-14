@@ -42,13 +42,15 @@
 	</ul>
 </nav>
  -->
- 
-
+<div class="skip_animation">
+	<a id="skip_animation">Skip Animation</a>
+</div>
 <div class="svg_animation">
 	<svg id="svg"></svg>
-	<svg id="svg2"></svg>
 </div>
 
+<video id="video">
+</video>
 
 <div class="units-row units-split" id="starting_links">
 

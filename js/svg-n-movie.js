@@ -2,6 +2,12 @@
 // ==========================================================================
 
 window.onload = function () {
+    $('#skip_animation').click(function() {
+        $('#skip_animation').fadeOut(250);
+        $('svg').fadeOut(250);
+        $('video').remove();
+    });
+
     var window_width = window.innerWidth;
     var window_height = window.innerHeight;
 
@@ -146,22 +152,31 @@ window.onload = function () {
         $('svg').remove();}, 8700);
 
     setTimeout(function(){
-        var video = document.createElement('video');
-        video.id = 'video';
-        document.body.appendChild(video);
         var source = document.createElement('source');
         source.setAttribute('src', '/videos/Presenter.mp4');
-        document.getElementById('video').appendChild(source);
-        document.getElementById('video').style.height = "100%";
-        document.getElementById('video').style.width = "50%";
-        document.getElementById('video').setAttribute('style', '');
-        document.getElementById('video').setAttribute('autoplay', 'autoplay');
-        $('video').bind('ended', function() {
-            $(this).animate({opacity: 0}, 1000); })
+        if ($('video').length == 0)
+        {
+            return;
+        }
+        else 
+        {
+            document.getElementById('video').appendChild(source);
+            document.getElementById('video').style.height = "100%";
+            document.getElementById('video').style.width = "50%";
+            document.getElementById('video').setAttribute('style', '');
+            document.getElementById('video').setAttribute('autoplay', 'autoplay');
+            $('video').bind('ended', function() {
+                $(this).animate({opacity: 0}, 1500); });
+        }
     }, 7200);
 
     setTimeout(function(){
-        $('video').remove();}, 14000);
+        $('#skip_animation').fadeOut(1500);
+    }, 7200);  
+
+    setTimeout(function(){
+        $('video').remove();}, 16000);
+
     setTimeout(function(){
         $('html', 'body').css('overflow','visible');}, 7200);
 }
