@@ -1,14 +1,4 @@
 /* ### New Multitouch Microsite ### */
-<<<<<<< HEAD
-html, body {
-	width: 100%;
-	height: 100%;
-	margin:0; 
-	padding:0; 
-	color:#fff;
-	overflow:hidden;
-	font-family: 'Lato', san-serif;
-=======
 
 html, body {
 	background-color: #F3857E;
@@ -18,7 +8,8 @@ html, body {
 	padding:0; 
 	position:relative;
 	width: 100%;
->>>>>>> origin/master
+	overflow:hidden;
+	font-family: 'Lato', san-serif;
 }
 
 #downloadicon, #ideumicon, #socialicon, #tableicon {
@@ -49,13 +40,12 @@ html, body {
 	cursor:pointer;
 	opacity:0.5;
 }
-<<<<<<< HEAD
-=======
+
 #dig_deeper p {
 	position: relative;
   right: -1em;
 }
->>>>>>> origin/master
+
 
 #skip_animation {
 	position: fixed;
@@ -98,18 +88,15 @@ video {
 
 #starting_links {
 	padding-top:20px;
-<<<<<<< HEAD
 }
 
 #content-block {
   height:40%;
-=======
 	z-index:100;
 }
 
 #content-block {
   height:30%;
->>>>>>> origin/master
   margin:auto;
 	padding-top:50px;
 	position:absolute;
@@ -117,7 +104,6 @@ video {
 }
 
 #content-information {
-<<<<<<< HEAD
 	border-bottom-color:white;
 	border-bottom-width:2px; 
 	padding:.5em 0 10px;
@@ -142,13 +128,11 @@ body {
 	background-color: #F3857E;
 	padding-top:1px;
 	position:relative;
-=======
 	height:100%;
 }
 
 #utility {
 	text-align: right;
->>>>>>> origin/master
 }
 
 /* ### begin clearfix helper class ### */
@@ -178,7 +162,6 @@ body {
 #scrollnav {
 	height:183px;
 	margin:auto;
-<<<<<<< HEAD
 	position:fixed;
 		top: 0; right: 0; bottom: 0; /* do not set left value */
 }
@@ -192,7 +175,6 @@ body {
 #menu {
 	position:fixed;
 		top:40%;
-=======
 	position: fixed;
 		top: 0; right: 0; bottom: 0; /* do not set left value */
 	text-align: right;
@@ -205,7 +187,6 @@ body {
   position: fixed;
   	top: 0%;
   width: 100%;
->>>>>>> origin/master
 }
 
 #starting_links {
@@ -215,7 +196,6 @@ body {
 
 .text-display {
 	position:relative;
-<<<<<<< HEAD
 		top:40%;
 	visibility:hidden;
 }
@@ -243,9 +223,6 @@ body {
 /* defualt values for viewability of sub-navigation */
 #tablemenu ul li ul  {
 	display:none;
-}
-
-=======
 		top:30%;
 }
 /* end settup of fixed sections vertical offsets */
@@ -271,12 +248,12 @@ body {
 	display:none;
 	margin:.25em 0;
 }
->>>>>>> origin/master
+
 #tablemenu ul li a {
 	color:#fff;
 	text-transform:uppercase;
 }
-<<<<<<< HEAD
+
 
 #tablemenu ul li.on {
 	color:#666;
@@ -287,7 +264,6 @@ body {
 	display:block;
 }
 
-=======
 #tablemenu ul li.on {
 	text-decoration:underline;
 }
@@ -297,12 +273,11 @@ body {
 #tablemenu ul li.on ul {
 	display:block;
 }
->>>>>>> origin/master
+
 #tablemenu ul li.on ul li {
 	color:#fff;
 	font-weight:normal; /*temp use only*/
 }
-<<<<<<< HEAD
 
 #section1navitem2 {
 	border-top-color: white;
@@ -330,16 +305,17 @@ body {
 	border-bottom-color: white;
 	border-bottom-style: solid;
 	border-bottom-width: 2px;
-=======
+}
+
 #tablemenu ul {
 	margin:0;
 }
+
 #tablemenu ul li a.on {
   font-family:'Lato', 'san-serif';
   text-decoration:underline;
   font-weight:bold;
   font-weight:900;
->>>>>>> origin/master
 }
 
 	/* starting (section1) values for viewability of sub-navigation - show #section1navitemsub-navigation only */
@@ -352,10 +328,8 @@ body {
 	#tablemenu.section1 ul li#section3navitem ul  {
 		display:none;
 	}
-<<<<<<< HEAD
 
 	/* section2 values for viewability of sub-navigation - show #section2navitem sub-navigation only */
-=======
 	#tablemenu ul li.on ul li:first-child {
     border-top:2px solid #fff;
 		margin:0;
@@ -417,7 +391,6 @@ body {
 		left: 4000px;
 	}
 
->>>>>>> origin/master
 	#tablemenu.section2 ul li#section1navitem ul  {
 		display:none;
 	}
@@ -447,7 +420,6 @@ body {
 	transition:background 0.5s linear;
 }
 #section1 {
-<<<<<<< HEAD
 	background-image:url(/images/background.png);
 	position:inherit;
 }
@@ -457,10 +429,6 @@ body {
 }
 #section3 {
 	background-image:url(/images/background.png);
-	position:inherit;
-}
-=======
-	background-image:url('/images/background.png');
 	position:inherit;
 }
 #section2 {
@@ -577,4 +545,3 @@ body {
     text-align:center;
 }
 
->>>>>>> origin/master
