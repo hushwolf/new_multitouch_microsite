@@ -8,52 +8,6 @@
 	<meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no minimal-ui">
 	
-<<<<<<< HEAD
-	<link rel="stylesheet" type="text/css" href="css/kube.min.css" />
-	<link href='https://fonts.googleapis.com/css?family=Lato:300' rel='stylesheet' type='text/css'>
-	<link href='http://fonts.googleapis.com/css?family=Roboto:900,700,400,300' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" type="text/css" href="style.css"/>
-	<link rel="stylesheet" href="css/colorbox.css" />
-
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-	<script src="js/colorbox-master/jquery.colorbox-min.js"></script>	
- 	<script src="js/kube.min.js"></script>
-	<script src="js/snap.svg.js"></script>
-	
-	<script src="js/svg-n-movie.js"></script>
-	<script src="js/main.js"></script>
-		<script>
-			$(document).ready(function(){
-				//Examples of how to assign the Colorbox event to elements
-				$(".group1").colorbox({rel:'group1'});
-				$(".group2").colorbox({rel:'group2', transition:"fade"});
-				$(".group3").colorbox({rel:'group3', transition:"none", width:"75%", height:"75%"});
-				$(".group4").colorbox({rel:'group4', slideshow:true});
-				$(".ajax").colorbox();
-				$(".youtube").colorbox({iframe:true, innerWidth:640, innerHeight:390});
-				$(".vimeo").colorbox({iframe:true, innerWidth:500, innerHeight:409});
-				$(".iframe").colorbox({iframe:true, width:"80%", height:"80%"});
-				$(".inline").colorbox({inline:true, width:"50%"});
-				$(".callbacks").colorbox({
-					onOpen:function(){ alert('onOpen: colorbox is about to open'); },
-					onLoad:function(){ alert('onLoad: colorbox has started to load the targeted content'); },
-					onComplete:function(){ alert('onComplete: colorbox has displayed the loaded content'); },
-					onCleanup:function(){ alert('onCleanup: colorbox has begun the close process'); },
-					onClosed:function(){ alert('onClosed: colorbox has completely closed'); }
-				});
-
-				$('.non-retina').colorbox({rel:'group5', transition:'none'})
-				$('.retina').colorbox({rel:'group5', transition:'none', retinaImage:true, retinaUrl:true});
-				$('.share-dialog-tab-desk').colorbox({inline:true, width:"80%", height:"80%"});
-				
-				//Example of preserving a JavaScript event for inline calls.
-				$("#click").click(function(){ 
-					$('#click').css({"background-color":"#f00", "color":"#fff", "cursor":"inherit"}).text("Open this window again and this message will still be here.");
-					return false;
-				});
-			});
-		</script>
-=======
 	<link rel="stylesheet" type="text/css" href="css/style.css"/>
 	<link rel="stylesheet" type="text/css" href="css/normalize.css"/>
 	<link rel="stylesheet" type="text/css" href="css/skeleton.css"/>
@@ -93,6 +47,7 @@
 
 			$('.non-retina').colorbox({rel:'group5', transition:'none'})
 			$('.retina').colorbox({rel:'group5', transition:'none', retinaImage:true, retinaUrl:true});
+			$('.share-dialog-tab-desk').colorbox({inline:true, width:"80%", height:"80%"});
 			
 			//Example of preserving a JavaScript event for inline calls.
 			$("#click").click(function(){ 
@@ -158,11 +113,7 @@
 		<a id="downloadicon" href="http://ideum.com/spec-sheets/Ideum-Specs-Platform.pdf">
 			<img src="images/download.png" height="64px" width="64px">
 		</a>
-<<<<<<< HEAD
 		<a id="socialicon" class="tablet-n-desktop share-dialog-tab-desk cboxElement" href="#home-share">
-=======
-		<a id="socialicon" href="#">
->>>>>>> origin/master
 			<img src="images/share_this.png">
 		</a>
 		<a id="tableicon" href="http://ideum.com/touch-tables/platform/" target="_blank">
@@ -207,10 +158,6 @@
 		<div id="key-features">
 
 		</div>
-<<<<<<< HEAD
-		<div id="dig_deeper" class="on" width="10%">
-			<p>DIG DEEPER</p>
-=======
 
 		<div id="gallery" class="row">
 			<div class="one-fourth" id="fish-n-ships">
@@ -235,15 +182,11 @@
 					<a class="touchme v-center-element gallery" href="/images/gallery/bugged.jpg" title="Replace this with contextually appropriate caption."></a>
 				</div>
 			</div>
->>>>>>> origin/master
 		</div>
-
 	</div>
-<<<<<<< HEAD
 </section>
 
 <div class="units-row units-split" id="content-scroller">
-=======
 
 	<div class="two columns right-side" id="scrollnav">
 
@@ -265,7 +208,6 @@
 
 <section class="row" id="content-scroller">
 
->>>>>>> origin/master
 	<a class="anchorlink" name="section1"></a>
 	<section class="one-column" id="section1">
 
@@ -307,7 +249,6 @@
 	</section>
 </div>
 
-<<<<<<< HEAD
 <!-- begin hidden content for front-page-share -->
 <div style='display:none'>
   <div id='home-share' class="share-dialog">
@@ -334,9 +275,7 @@
   </div>
 </div>
 <!-- end hidden content for page-share - revealed when user clicks 'Share This Page' link in footer -->
-=======
 </section>
->>>>>>> origin/master
 
 </body>
 </html>
