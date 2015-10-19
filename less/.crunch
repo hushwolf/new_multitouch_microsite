@@ -1,0 +1,21 @@
+{
+	"files": {
+		"navigation-responsive.less": {
+			"engines": [
+				{
+					"compiler": "less",
+					"output": "../css/navigation-responsive.css",
+					"options": {
+						"compress": false,
+						"ieCompat": false,
+						"strictMath": false,
+						"strictUnits": false,
+						"javascriptEnabled": false,
+						"sourcemap": true
+					}
+				}
+			],
+			"sources": []
+		}
+	}
+}
