@@ -1,5 +1,4 @@
 /* ### New Multitouch Microsite ### */
-<<<<<<< HEAD
 html, body {
 	width: 100%;
 	height: 100%;
@@ -8,17 +7,6 @@ html, body {
 	color:#fff;
 	overflow:hidden;
 	font-family: 'Lato', san-serif;
-=======
-
-html, body {
-	background-color: #F3857E;
-	color:#fff;
-	height: 100%;
-	margin:0;
-	padding:0; 
-	position:relative;
-	width: 100%;
->>>>>>> origin/master
 }
 
 #downloadicon, #ideumicon, #socialicon, #tableicon {
@@ -49,13 +37,6 @@ html, body {
 	cursor:pointer;
 	opacity:0.5;
 }
-<<<<<<< HEAD
-=======
-#dig_deeper p {
-	position: relative;
-  right: -1em;
-}
->>>>>>> origin/master
 
 #skip_animation {
 	position: fixed;
@@ -98,18 +79,10 @@ video {
 
 #starting_links {
 	padding-top:20px;
-<<<<<<< HEAD
 }
 
 #content-block {
   height:40%;
-=======
-	z-index:100;
-}
-
-#content-block {
-  height:30%;
->>>>>>> origin/master
   margin:auto;
 	padding-top:50px;
 	position:absolute;
@@ -117,7 +90,6 @@ video {
 }
 
 #content-information {
-<<<<<<< HEAD
 	border-bottom-color:white;
 	border-bottom-width:2px; 
 	padding:.5em 0 10px;
@@ -142,13 +114,6 @@ body {
 	background-color: #F3857E;
 	padding-top:1px;
 	position:relative;
-=======
-	height:100%;
-}
-
-#utility {
-	text-align: right;
->>>>>>> origin/master
 }
 
 /* ### begin clearfix helper class ### */
@@ -178,7 +143,6 @@ body {
 #scrollnav {
 	height:183px;
 	margin:auto;
-<<<<<<< HEAD
 	position:fixed;
 		top: 0; right: 0; bottom: 0; /* do not set left value */
 }
@@ -192,20 +156,6 @@ body {
 #menu {
 	position:fixed;
 		top:40%;
-=======
-	position: fixed;
-		top: 0; right: 0; bottom: 0; /* do not set left value */
-	text-align: right;
-}
-
-/* begin settup of fixed sections vertical offsets */
-
-#content-display {
-  height: 100%;
-  position: fixed;
-  	top: 0%;
-  width: 100%;
->>>>>>> origin/master
 }
 
 #starting_links {
@@ -215,7 +165,6 @@ body {
 
 .text-display {
 	position:relative;
-<<<<<<< HEAD
 		top:40%;
 	visibility:hidden;
 }
@@ -245,38 +194,10 @@ body {
 	display:none;
 }
 
-=======
-		top:30%;
-}
-/* end settup of fixed sections vertical offsets */
-
-
-/* ### begin #tablemenu styles ### */
-#menu {
-  height: 100%;
-  position: fixed;
-}
-#tablemenu { /* aka tablemenu */
-	background-color:transparent;
-	color:#fff;
-	position:fixed;
-		top:30%;
-	transition: all 0.25s ease;
-}
-#tablemenu ul {
-	list-style:none;
-}
-/* defualt values for viewability of sub-navigation */
-#tablemenu ul li ul  {
-	display:none;
-	margin:.25em 0;
-}
->>>>>>> origin/master
 #tablemenu ul li a {
 	color:#fff;
 	text-transform:uppercase;
 }
-<<<<<<< HEAD
 
 #tablemenu ul li.on {
 	color:#666;
@@ -287,22 +208,10 @@ body {
 	display:block;
 }
 
-=======
-#tablemenu ul li.on {
-	text-decoration:underline;
-}
-#tablemenu ul li#section1navitem.on {
-	text-decoration:none;
-}
-#tablemenu ul li.on ul {
-	display:block;
-}
->>>>>>> origin/master
 #tablemenu ul li.on ul li {
 	color:#fff;
 	font-weight:normal; /*temp use only*/
 }
-<<<<<<< HEAD
 
 #section1navitem2 {
 	border-top-color: white;
@@ -330,16 +239,6 @@ body {
 	border-bottom-color: white;
 	border-bottom-style: solid;
 	border-bottom-width: 2px;
-=======
-#tablemenu ul {
-	margin:0;
-}
-#tablemenu ul li a.on {
-  font-family:'Lato', 'san-serif';
-  text-decoration:underline;
-  font-weight:bold;
-  font-weight:900;
->>>>>>> origin/master
 }
 
 	/* starting (section1) values for viewability of sub-navigation - show #section1navitemsub-navigation only */
@@ -352,72 +251,8 @@ body {
 	#tablemenu.section1 ul li#section3navitem ul  {
 		display:none;
 	}
-<<<<<<< HEAD
 
 	/* section2 values for viewability of sub-navigation - show #section2navitem sub-navigation only */
-=======
-	#tablemenu ul li.on ul li:first-child {
-    border-top:2px solid #fff;
-		margin:0;
-		padding-top:.25em;
-	}
-	#tablemenu ul li.on ul li:last-child {
-    border-bottom:2px solid #fff;
-		margin-bottom:.25em;
-		padding-top:.5em;
-	}
-	#tablemenu ul li ul li a.on {
-	  font-family: 'Lato', san-serif;
-	  font-weight:900;
-	}
-	#tablemenu ul li ul li a {
-	  padding-left:20px;
-	  position: relative;
-    	top: 2px;
-	}
-	#tablemenu ul li ul li.on:before {
-    content:">";
-    float:left;
-	}
-
-	#section1navitem.on {
-		margin-bottom:0;
-	}
-	#section1navitem2 {
-	  
-	}
-	#section1navitem3 {
-		/* nothing to see here */
-	}
-	
-	/* section2 values for viewability of sub-navigation - show #section2navitem sub-navigation only */
-	#tablemenu ul li ul {
-    list-style:none;
-	}
-	.nav ul li ul {
-    margin-left:0;
-    font-size:.95em;
-	}
-	.nav ul li ul li:first-child a {
-    display:block;
-    padding:0;
-	}
-	.nav ul li ul li:last-child  a{
-    display:block;
-    padding:0 0 .5em 0;
-	}
-	.nav a {
-    text-decoration:none;
-	}
-	.nav a:hover {
-    text-decoration:underline;
-	}
-
-	#content-scroller section .text-display {
-		left: 4000px;
-	}
-
->>>>>>> origin/master
 	#tablemenu.section2 ul li#section1navitem ul  {
 		display:none;
 	}
@@ -447,7 +282,6 @@ body {
 	transition:background 0.5s linear;
 }
 #section1 {
-<<<<<<< HEAD
 	background-image:url(/images/background.png);
 	position:inherit;
 }
@@ -459,122 +293,3 @@ body {
 	background-image:url(/images/background.png);
 	position:inherit;
 }
-=======
-	background-image:url('/images/background.png');
-	position:inherit;
-}
-#section2 {
-	background-image:url('/images/background.png');
-	position:inherit;
-}
-#section3 {
-	background-image:url('/images/background.png');
-	position:inherit;
-}
-
-#table {
-	background-image:url('/images/table-content/table.png');
-	background-position: center;
-	background-repeat:no-repeat;
-	background-size:contain;
-	height:100%;
-}
-#table #text-block {
-  display:block;
-  margin:0 auto;
-  max-width:55%;
-	padding:0;
-	position: absolute;
-    top:20%; right:2%; left:2%;
-  text-align:center;
-}
-#latest-in-touch {
-	background-image:url('/images/table-content/latest-in-touch.png');
-	background-position: center;
-	background-repeat:no-repeat;
-	background-size:contain;
-	height:100%;
-}
-#key-features {
-	background-image:url('/images/table-content/key-features.png');
-	background-position: center;
-	background-repeat:no-repeat;
-	background-size:contain;
-	height:100%;
-}
-#latest-in-touch {
-	display:none;
-}
-#key-features {
-	display:none;
-}
-#gallery {
-	height:100%;
-	display:none;
-}
-#contact {
-	display:none;
-}
-
-
-#gallery .one-fourth {
-	float:left;
-	height:100%;
-	overflow:hidden;
-}
-.one-fourth a.touchme {
-	background-image:url('/images/clickme.png');
-  background-position-x: center;
-  background-position-y: center;
-	background-repeat:no-repeat;
-  height:100%;
-  visibility:hidden;
-	width:100%;
-}
-
-#fish-n-ships {
-	background-image:url('/images/gallery/fish-n-ships.jpg');
-	background-size:cover;
-	background-position:center;
-	width:25%;
-}
-#welding {
-	background-image:url('/images/gallery/welding.jpg');
-	background-size:cover;
-	background-position:center;
-	width:25%;
-}
-#gestures{
-	background-image:url('/images/gallery/gestures.jpg');
-	background-size:cover;
-	background-position:center;
-	width:25%;
-}
-#bugged {
-	background-image:url('/images/gallery/bugged.jpg');
-	background-size:cover;
-	background-position:center;
-	width:25%;
-}
-
-.one-fourth {
-	position:relative;
-}
-.one-fourth img {
-	display:none;
-	position:relative;
-}
-
-.v-center-container {
-    position:absolute; 
-    height:100%; 
-    width:100%;
-    display: table;
-}
-.v-center-element {
-    display: table-cell;
-    vertical-align: middle;
-    text-align:center;
-}
-
->>>>>>> origin/master

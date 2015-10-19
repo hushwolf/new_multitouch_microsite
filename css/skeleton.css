@@ -124,8 +124,13 @@ body {
   font-size: 1.5em; /* currently ems cause chrome bug misinterpreting rems on body element */
   line-height: 1.6;
   font-weight: 400;
+<<<<<<< HEAD
   font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #222; }
+=======
+  font-family: "Lato", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #fff; }
+>>>>>>> origin/master
 
 
 /* Typography
@@ -403,6 +408,7 @@ there.
 
 
 /* Larger than mobile */
+<<<<<<< HEAD
 @media (min-width: 400px) {}
 
 /* Larger than phablet (also point when grid becomes active) */
@@ -416,3 +422,63 @@ there.
 
 /* Larger than Desktop HD */
 @media (min-width: 1200px) {}
+=======
+@media (min-width: 400px) {
+
+}
+
+/* Larger than phablet (also point when grid becomes active) */
+@media (min-width: 550px) {
+
+}
+
+/* Larger than tablet */
+@media (min-width: 750px) {
+  #content-information.offset-by-two.columns.eight.columns {
+    margin: 0 13.3333333333%;
+    width: 73.3333333333%;
+  }
+  .columns.left-side, .column.left-side {
+    padding: 0 0 0 2%;
+  }
+  .columns.right-side, .column.right-side {
+    padding: 0 2% 0 0;
+  }
+  #utility a img {
+    height: auto;
+    width: 32px;
+  }
+  #logo a img {
+    height: auto;
+    width: 8em;
+  }
+}
+
+/* Larger than desktop */
+@media (min-width: 1200px) {
+  #utility a img {
+    height: auto;
+    width: 64px;
+  }
+  #logo a img {
+    height: auto;
+    width: 125px;
+  }
+}
+
+/* Larger than Desktop HD */
+@media (min-width: 1400px) {
+  .columns.left-side, .column.left-side {padding:0 0 0 3%; width: 17.3333333333%;}
+  .columns.right-side, .column.right-side {padding:0 3% 0 0; width: 17.3333333333%;}
+  #content-information.offset-by-two.columns.eight.columns {
+    margin:0 17.3333333333%;
+    width: 65.3333333333%;
+  }
+  #starting_links .eight.columns {
+    margin-left:0;
+  }
+  #starting_links .two.columns.right-side {
+    float: right;
+  }
+}
+>>>>>>> origin/master

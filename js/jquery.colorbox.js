@@ -21,11 +21,19 @@
 		width: false,
 		initialWidth: "600",
 		innerWidth: false,
+<<<<<<< HEAD
 		maxWidth: 75%,
 		height: false,
 		initialHeight: "450",
 		innerHeight: false,
 		maxHeight: 100%,
+=======
+		maxWidth: "75%", // changed from 'false'
+		height: false,
+		initialHeight: "450",
+		innerHeight: false,
+		maxHeight: "100%", // changed from 'false'
+>>>>>>> origin/master
 		scalePhotos: true,
 		scrolling: true,
 		opacity: 0.9,
@@ -38,7 +46,11 @@
 		bottom: false,
 		left: false,
 		right: false,
+<<<<<<< HEAD
 		fixed: true,
+=======
+		fixed: true, // changed from 'false'
+>>>>>>> origin/master
 		data: undefined,
 		closeButton: true,
 		fastIframe: true,
